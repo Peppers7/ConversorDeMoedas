@@ -28,24 +28,24 @@ public class main {
                         convertedValue.ParityCalculator("USD", "EUR", parity);
                         break;
                     case "2":
-                        parity = requestExchange.ReceiveValue("EUR", "USD");
-                        convertedValue.ParityCalculator("EUR", "USD", parity);
+                        parity = requestExchange.ReceiveValue("EUR", "ARS");
+                        convertedValue.ParityCalculator("EUR", "ARS", parity);
                         break;
                     case "3":
                         parity = requestExchange.ReceiveValue("BRL", "USD");
                         convertedValue.ParityCalculator("BRL", "USD", parity);
                         break;
                     case "4":
-                        parity = requestExchange.ReceiveValue("USD", "BRL");
-                        convertedValue.ParityCalculator("USD", "BRL", parity);
-                        break;
-                    case "5":
                         parity = requestExchange.ReceiveValue("EUR", "BRL");
                         convertedValue.ParityCalculator("EUR", "BRL", parity);
                         break;
+                    case "5":
+                        parity = requestExchange.ReceiveValue("BRL", "CUP");
+                        convertedValue.ParityCalculator("BRL", "CUP", parity);
+                        break;
                     case "6":
-                        parity = requestExchange.ReceiveValue("BRL", "EUR");
-                        convertedValue.ParityCalculator("BRL", "EUR", parity);
+                        parity = requestExchange.ReceiveValue("USD", "RUBs");
+                        convertedValue.ParityCalculator("USD", "RUB", parity);
                         break;
                     case "0": System.out.println("Saindo do programa....");
                     quit = true;
