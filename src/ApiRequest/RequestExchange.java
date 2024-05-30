@@ -10,10 +10,10 @@ import java.net.http.HttpResponse;
 
 public class RequestExchange {
 
-    private String key = "ab5c58f96e4d5d1698df3b6a";
+    private String keyApi = "YOUR_API_KEY_HERE";
 
     public Double ReceiveValue(String coin1, String coin2) throws IOException, InterruptedException {
-        String address = "https://v6.exchangerate-api.com/v6/"+this.key+"/pair/"+coin1+"/"+coin2;
+        String address = "https://v6.exchangerate-api.com/v6/"+this.keyApi+"/pair/"+coin1+"/"+coin2;
         Gson gson = new Gson();
 
         HttpClient client = HttpClient.newHttpClient();
