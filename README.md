@@ -24,7 +24,7 @@ Este é um projeto simples que realiza a conversão de algumas moedas. Um menu i
 1. Clone o repositório:
     ```bash
     git clone https://github.com/seu-usuario/challenge-conversor-moedas.git
-    ```
+   ```
 
 2. Navegue até o diretório do projeto:
     ```bash
@@ -81,5 +81,5 @@ Distribuído sob a licença MIT. Veja `LICENSE` para mais informações.
 
 ## Autores
 
-- **Seu Nome** - *Trabalho inicial* - [Seu Perfil no GitHub](https://github.com/seu-usuario)
+- **Matheus Parra Paulino** - *Trabalho inicial* - [Meu Perfil no GitHub](https://github.com/Peppers7)
 
